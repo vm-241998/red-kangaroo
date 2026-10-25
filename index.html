@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Kangaroo Energy Drink | Punch Hard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/fevicon-1.png" type="image/x-icon">
+    <!-- Bootstrap Icons (only) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HAMBURGER BUTTON -->
+    <div class="hamburger" id="hamburger">☰</div>
+
+    <!-- SIDEBAR NAVIGATION -->
+    <div class="sidebar" id="sidebar" aria-hidden="true">
+        <span class="close-btn" id="closeBtn">×</span>
+        <a href="./index.html">Home</a>
+        <a href="./products/products.html">Products</a>
+        <a href="./events/events.html">Events</a>
+        <!-- <a href="./shop-online/shop-online.html">Shop Online</a> -->
+        <a href="./contact/contact.html">Contact</a>
+    </div>
+
+    <header>
+        <a href="./index.html"><img
+                src="./assets/images/red-kangaroo-logo.png" alt="Red Kangaroo Logo"
+                class="brand-logo"></a>
+        <h1>RED KANGAROO</h1>
+        <p>Energy is a decision. Power is a habit. When the moment comes — don’t wait.</p>
+        <h2>PUNCH HARD.</h2>
+        <button class="cta"><a href="./products/products.html">EXPLORE ENERGY</a></button>
+    </header>
+
+  
+
+    <div class="hero-banner">
+        <img src="./assets/images/Red Kangaroo Brand Portfolio Front view (FV).png" alt="">
+    </div>
+
+    <section class="dark punch-impact">
+        <h2 class="section-title punch-text">Brand Story</h2>
+        <p>Red Kangaroo is built for fighters — not just in the ring, but in life. Inspired by the instinct and power of
+            the kangaroo, we create energy that delivers focus, control, and explosive performance when it matters most.
+        </p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Why Red Kangaroo – Youth & Hardcore Fighter Edition</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Built for the Grind</h3>
+                <p>Late nights. Early mornings. No excuses. Red Kangaroo fuels relentless routines.</p>
+            </div>
+            <div class="card">
+                <h3>Fight Mentality</h3>
+                <p>Inspired by boxing and combat sports — sharp focus, controlled aggression.</p>
+            </div>
+            <div class="card">
+                <h3>Game-Ready Energy</h3>
+                <p>For gamers, athletes, creators — energy that keeps reaction time tight.</p>
+            </div>
+            <div class="card">
+                <h3>No Spectator Energy</h3>
+                <p>This isn’t for watching. It’s for stepping in and taking control.</p>
+            </div>
+            <div class="card">
+                <h3>Iconic Identity</h3>
+                <p>Bold red. Kangaroo fists. A symbol of power youth can wear with pride.</p>
+            </div>
+            <div class="card">
+                <h3>Instant Focus</h3>
+                <p>Clean energy without sugar crash.</p>
+            </div>
+            <div class="card">
+                <h3>Relentless Power</h3>
+                <p>Formulated for performance under pressure.</p>
+            </div>
+            <div class="card">
+                <h3>Bold Identity</h3>
+                <p>Not for spectators. Built for action.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Arena: contains flavours, can stage and product area -->
+    <section id="productArena" class="dark arena arena-original">
+        <h2 class="section-title">Flavours</h2>
+
+        <!-- Flavour selector (buttons) -->
+        <div class="flavor-selector">
+            <button class="flavor-btn1 active" data-flavor="original">ORIGINAL</button>
+            <button class="flavor-btn2" data-flavor="mango">MANGO CHARGE</button>
+            <button class="flavor-btn3" data-flavor="blue">BLUE BOLT</button>
+            <button class="flavor-btn4" data-flavor="lime">LIME SHOCK</button>
+            <button class="flavor-btn5" data-flavor="zero">ZERO SUGAR</button>
+        </div>
+
+        <!-- Can visual (rotates & tilts) -->
+        <div class="can-stage">
+            <img id="canImage" src="./assets/images/Red Kangaroo original fv.png"
+                alt="Red Kangaroo Can" />
+        </div>
+
+        <div class="product-strip punch-text" id="whatsInsideOriginal" style="display: block;">
+            <h3>WHAT'S INSIDE</h3>
+            <p><strong>ORIGINAL</strong> - Classic Energy (Mass Market)</p>
+            <p>Caffeine • Taurine • B-Complex Vitamins • Performance Aminos • Electrolytes</p>
+            <p>The pure essence of power. Fuel your focus. Ignite your drive. Stay sharp when it matters.</p>
+            <p class="disclaimer">*Contains caffeine. Not recommended for children, pregnant or lactating women. Consume
+                responsibly.</p>
+        </div>
+
+        <div class="product-strip punch-text" id="whatsInsideMango" style="display: none;">
+            <h3>WHAT'S INSIDE</h3>
+            <p><strong>MANGO CHARGE</strong> - Sweet Tropical (Youth)</p>
+            <p>Caffeine • Taurine • B-Complex Vitamins • Natural Mango Flavour • Performance Aminos</p>
+            <p>Tropical rush meets explosive energy. Built for long days and longer nights.</p>
+            <p class="disclaimer">*Contains caffeine. Not recommended for children, pregnant or lactating women. Consume
+                responsibly.</p>
+        </div>
+
+        <div class="product-strip punch-text" id="whatsInsideBlue" style="display: none;">
+            <h3>WHAT'S INSIDE</h3>
+            <p><strong>BLUE BOLT</strong> - Berry Blast (Night Gamers)</p>
+            <p>Caffeine • Taurine • B-Complex Vitamins • Berry Blast Flavour • L-Tyrosine</p>
+            <p>Sharp focus. Fast reflexes. Zero lag energy.</p>
+            <p class="disclaimer">*Contains caffeine. Not recommended for children, pregnant or lactating women. Consume
+                responsibly.</p>
+        </div>
+
+        <div class="product-strip punch-text" id="whatsInsideLime" style="display: none;">
+            <h3>WHAT'S INSIDE</h3>
+            <p><strong>LIME SHOCK</strong> - Citrus Punch (Fitness)</p>
+            <p>Caffeine • Taurine • B-Complex Vitamins • Citrus Extract • Electrolytes</p>
+            <p>Clean citrus kick. Hydrate. Activate. Dominate.</p>
+            <p class="disclaimer">*Contains caffeine. Not recommended for children, pregnant or lactating women. Consume
+                responsibly.</p>
+        </div>
+
+        <div class="product-strip punch-text" id="whatsInsideZero" style="display: none;">
+            <h3>WHAT'S INSIDE</h3>
+            <p><strong>ZERO SUGAR</strong> - Clean Energy (Health-Conscious)</p>
+            <p>Caffeine • Taurine • B-Complex Vitamins • Natural Sweeteners • Performance Aminos</p>
+            <p>Pure performance. Zero sugar. No compromise.</p>
+            <p class="disclaimer">*Contains caffeine. Not recommended for children, pregnant or lactating women. Consume
+                responsibly.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Who It’s For</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="athlete-video-wrap">
+                    <video class="athlete-video1" autoplay muted loop controls playsinline controlsList="nodownload">
+                        <source src="./assets/videos/punch-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="card">
+                <div class="athlete-video-wrap">
+                    <video class="athlete-video2" autoplay muted loop controls playsinline controlsList="nodownload">
+                        <source src="./assets/videos/punch-2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="card">
+                <div class="athlete-video-wrap">
+                    <video class="athlete-video3" autoplay muted loop controls playsinline controlsList="nodownload">
+                        <source src="./assets/videos/punch-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="card">
+                <p>Athletes</p>
+                <img src="./assets/images/woman-ready-punch-with-box-gloves.png" alt="">
+            </div>
+            <div class="card">
+                <p>Gamers</p>
+                <img src="./assets/images/woman-punching-with-box-gloves.png" alt="">
+            </div>
+            <div class="card">
+                <p>Creators</p>
+                <img src="./assets/images/woman-punching-with-box-glove.png" alt="">
+            </div>
+            <div class="card">
+                <p>Night Workers</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="dark">
+        <h2 class="section-title">Brand Manifesto – Youth / Hardcore Fighter</h2>
+        <p>You don’t wait for motivation. You create it.<br><br>Every round hurts. Every level pushes back. Every night
+            tests how bad you want it.<br><br>Red Kangaroo is for those who punch through doubt, fatigue, and
+            fear.<br><br>Energy is a decision. Power is a habit.</p>
+        <h3>PUNCH HARD.</h3>
+        <p>Energy isn’t noise. It’s readiness. When pressure rises, Red Kangaroo rises with you.</p>
+        <h3>PUNCH HARD.</h3>
+    </section>
+
+    <!-- START OF FOOTER -->
+    <section class="container">
+        <div class="row">
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5 class="text-danger mb-3">Quick Links</h5>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./products/products.html">Products</a></li>
+                    <li><a href="./events/events.html">Events</a></li>
+                    <li><a href="./shop-online/shop-online.html">Shop Online</a></li>
+                    <li><a href="./contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Products -->
+            <div class="col-md-4">
+                <h5 class="text-danger mb-3">Products</h5>
+                <ul>
+                    <li><a href="./products/original.html">Original</a>
+                    </li>
+                    <li><a href="./products/mango-chagre.html">Mango Charge</a>
+                    </li>
+                    <li><a href="./products/blue-bolt.html">Blue Bolt</a>
+                    </li>
+                    <li><a href="./products/lime-shock.html">Lime Shock</a>
+                    </li>
+                    <li><a href="./products/zero-sugar.html">Zero Sugar</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            <div class="col-md-4">
+                <h5 class="text-danger mb-3">Connect with us</h5>
+                <p class="text-muted small">Stay connected with Toastica on social media:</p>
+                <div class="social-links">
+                    <a aria-label="Instagram" href="https://www.instagram.com/Zaikajaroori" target="_blank">
+                        <i class="bi bi-instagram social-icon" aria-hidden="true"></i>
+                    </a>
+                    <a aria-label="Facebook" href="https://www.facebook.com/Zaikajaroori" target="_blank">
+                        <i class="bi bi-facebook social-icon" aria-hidden="true"></i>
+                    </a>
+                    <a aria-label="LinkedIn" href="https://www.linkedin.com/company/Zaikajaroori" target="_blank">
+                        <i class="bi bi-linkedin social-icon" aria-hidden="true"></i>
+                    </a>
+                    <a aria-label="YouTube" href="https://www.youtube.com/@Zaikajaroori" target="_blank">
+                        <i class="bi bi-youtube social-icon" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF FOOTER -->
+
+    <footer>
+        <p>© 2025 Red Kangaroo Energy Drink</p>
+        <p>All Rights Reserved</p>
+    </footer>
+
+    <!-- Slam overlay (scroll reveal) -->
+    <div class="slam-overlay" id="slamOverlay">
+        <div class="slam-text">PUNCH HARD</div>
+    </div>
+
+    <!-- KO overlay (CTA) -->
+    <div class="ko-overlay" id="koOverlay">
+        <div class="ko-text">
+            <span class="ko-line">ENERGY IS A DECISION</span>
+            <span class="ko-hit">PUNCH HARD</span>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        // Attach unmute handlers to athlete videos
+        document.querySelectorAll('.video-unmute-btn').forEach(function (btn) {
+            var wrap = btn.closest('.athlete-video-wrap');
+            if (!wrap) return;
+            var video = wrap.querySelector('video');
+            if (!video) return;
+            // Update button state based on muted
+            function updateBtn() { btn.textContent = video.muted ? 'Unmute' : 'Mute'; }
+            updateBtn();
+            btn.addEventListener('click', function () {
+                if (video.muted) {
+                    video.muted = false;
+                    try { video.volume = 0.8; } catch (e) { }
+                    video.play().catch(function () { });
+                } else {
+                    video.muted = true;
+                }
+                updateBtn();
+            });
+        });
+    </script>
+
+</body>
+
+</html>
