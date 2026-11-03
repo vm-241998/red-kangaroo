@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Red Kangaroo</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../images/fevicon.png?v=2" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        rel="stylesheet">
+</head>
+
+<body class="contact-page">
+    <div class="sidebar" id="sidebar" aria-hidden="true">
+        <span class="close-btn" id="closeBtn">×</span>
+        <a href="../index.html">Home</a>
+        <a href="../products/products.html">Products</a>
+        <a href="../events/events.html">Events</a>
+        <a href="../contact/contact.html">Contact</a>
+    </div>
+
+    <header class="main-header">
+        <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation menu"
+            aria-controls="sidebar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <a href="../index.html" class="header-logo">
+            <img src="../images/red-kangaroo-logo.png" alt="Red Kangaroo Logo">
+        </a>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="contact-hero">
+                <div class="hero-inner">
+                    <span class="contact-tag">CONTACT RED KANGAROO</span>
+                    <h1>LET'S TALK <span>ENERGY.</span></h1>
+                    <p>Questions about our products, events, or partnerships? Drop us a message — we'd love to hear
+                        from you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container contact-container">
+            <div class="contact-heading">
+                <h2>Get In Touch</h2>
+                <p>Have something on your mind? Connect with our team.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-card">
+                    <div class="form-heading">
+                        <span class="form-icon" aria-hidden="true">
+                            <i class="bi bi-chat-dots"></i>
+                        </span>
+                        <div>
+                            <h3>Send Us a Message</h3>
+                            <p>Fill in the details below.</p>
+                        </div>
+                    </div>
+
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input id="name" name="name" type="text" required placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input id="email" name="email" type="email" required
+                                    placeholder="Enter your email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input id="subject" name="subject" type="text" placeholder="Enter subject">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" required
+                                placeholder="Write your message here..."></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="contact-submit">
+                                SEND MESSAGE
+                                <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                            </button>
+                            <small>
+                                <i class="bi bi-shield-check" aria-hidden="true"></i>
+                                Your information is kept private.
+                            </small>
+                        </div>
+                    </form>
+
+                    <div id="formSuccess" class="form-success" role="status" aria-live="polite" hidden>
+                        Thank you! Your enquiry has been received.
+                    </div>
+                </div>
+
+                <aside class="contact-info">
+                    <div class="info-heading">
+                        <span>CONTACT DETAILS</span>
+                        <h3>Connect With Us</h3>
+                        <p>We're here to help you with your enquiries.</p>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="info-icon" aria-hidden="true">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </span>
+                        <div>
+                            <h4>Head Office</h4>
+                            <p>Red Kangaroo Energy Drink<br>Maharashtra, India</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="info-icon" aria-hidden="true">
+                            <i class="bi bi-telephone-fill"></i>
+                        </span>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+918693006186">+91 869 300 6186</a>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="info-icon" aria-hidden="true">
+                            <i class="bi bi-envelope-fill"></i>
+                        </span>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:hello@zaikajaroori.com">hello@zaikajaroori.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="info-icon" aria-hidden="true">
+                            <i class="bi bi-briefcase-fill"></i>
+                        </span>
+                        <div>
+                            <h4>Business Enquiries</h4>
+                            <p>Partnerships &amp; Distributors</p>
+                            <a href="mailto:partners@redkangaroo.example">Contact Business Team</a>
+                        </div>
+                    </div>
+
+                    <div class="map-placeholder">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6484971.222697064!2d71.40432931126641!3d18.15218313567186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e1!3m2!1sen!2sin!4v1771848460050!5m2!1sen!2sin"
+                            title="Map showing Maharashtra, India" loading="lazy" allowfullscreen
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!-- START OF FOOTER -->
+    <section class="container">
+        <div class="row">
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5 class="text-danger mb-3">Quick Links</h5>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../products/products.html">Products</a></li>
+                    <li><a href="../events/events.html">Events</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Products -->
+            <div class="col-md-4">
+                <h5 class="text-danger mb-3">Products</h5>
+                <ul>
+                    <li><a href="../products/original.html">Original</a></li>
+                    <li><a href="../products/mango-chagre.html">Mango Charge</a></li>
+                    <li><a href="../products/blue-bolt.html">Blue Bolt</a></li>
+                    <li><a href="../products/lime-shock.html">Lime Shock</a></li>
+                    <li><a href="../products/zero-sugar.html">Zero Sugar</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            <div class="col-md-4">
+                <h5 class="text-danger mb-3">Connect with us</h5>
+                <p class="text-muted small">Join the Fun, Follow Us</p>
+                <div class="social-links">
+                    <a aria-label="Instagram" href="https://www.instagram.com/Zaikajaroori" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="bi bi-instagram social-icon" aria-hidden="true"></i>
+                    </a>
+                    <a aria-label="Facebook" href="https://www.facebook.com/Zaikajaroori" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="bi bi-facebook social-icon" aria-hidden="true"></i>
+                    </a>
+                    <a aria-label="LinkedIn" href="https://www.linkedin.com/company/Zaikajaroori" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="bi bi-linkedin social-icon" aria-hidden="true"></i>
+                    </a>
+                    <a aria-label="YouTube" href="https://www.youtube.com/@Zaikajaroori" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="bi bi-youtube social-icon" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF FOOTER -->
+
+    <footer>
+        <p>© 2025 Red Kangaroo Energy Drink</p>
+        <p>All Rights Reserved</p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
